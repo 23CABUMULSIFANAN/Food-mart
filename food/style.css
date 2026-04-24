@@ -1,0 +1,314 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.icon-circle {
+  width: 40px;
+  height: 40px;
+  background-color: #f8f9fa;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+
+}
+.dropdown-item:hover{
+  background-color: rgb(44, 44, 236);
+ color: white;
+}
+
+
+.nav-item {
+  margin-left: 15px;
+}
+
+.box {
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ddd;
+  opacity: 1;
+  border: none;
+  margin: 10px;
+
+}
+
+.carousel-indicators .active {
+  background-color: #f4b400;
+}
+
+.item1 {
+
+  height: 180px;
+  width: 180px;
+ 
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-radius: 20px;
+ 
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.item1:hover{
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+.pro1{
+  border-radius: 20px;
+  position: relative;
+  height: 180px;   
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product{
+ 
+  border: none;
+
+ border-radius: 20px;
+ 
+}
+.card{
+   box-shadow: 0 10px 15px rgba(0,0,0,0.15);
+}
+.discount{
+  position: absolute;
+  top:15px;
+  left: 15px;
+  background-color: #a3be4c;
+  color: white;
+  padding: 5px;
+  border-radius: 30px;
+
+}
+.heart{
+   position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius: 50%;
+  padding: 10px;
+ 
+  background-color: white;
+  border: 1px solid grey;
+}
+.heart:hover{
+  background-color: red;
+  color: white;
+  border: none;
+}
+.inc{
+width: 20px;
+border: 1px solid grey;
+  border-radius: 3px;
+
+}
+.dec{
+ width: 20px;
+border: 1px solid grey;
+  border-radius: 3px;
+
+
+}
+.add1{
+  background-color: #f9ebe7;
+ 
+  border-radius: 20px;
+  min-height: 300px;
+  position: relative;
+
+}
+.add2{
+  background-color:aliceblue;
+  border-radius: 20px;
+  min-height: 300px;
+  position: relative;
+}
+.addimg{
+position: absolute;
+top: 50px;
+
+}
+.addimg2{
+position: absolute;
+
+
+
+}
+.add-p{
+  position: absolute;
+  left: 50px;
+  top: 40px;
+  font-size:x-large;
+  font-weight: 500;
+}
+.add-head{
+  position: absolute;
+  left: 50px;
+  top: 90px;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+.add-p1{
+  position: absolute;
+  left: 50px;
+  top: 150px;
+  font-size: larger;
+}
+.add-btn{
+   position: absolute;
+  left: 50px;
+  top: 200px;
+  
+
+}
+.form1{
+  background-color: aliceblue;
+  min-height: max-content;
+  border-radius: 20px;
+  margin: 20px;
+}
+.form1-h1{
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+.form1-p{
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+@media (min-width: 992px) {
+  .addimg {
+    left: auto;
+    right: 30px;
+    transform: none;
+  }
+   .addimg2 {
+    left: auto;
+    right: 30px;
+    transform: none;
+  }
+}
+.labels{
+  color: grey;
+  font-size: large;
+  padding-bottom: 10px;
+}
+.form-control{
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: larger;
+
+}
+.form1-label{
+  letter-spacing: 1px;
+  line-height: 30px;
+ margin-bottom: 20px;
+}
+.poster{
+  min-height: 300px;
+  border-radius: 20px;
+  
+   box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+.post-img{
+  padding: 20px;
+  border-radius: 20px;
+}
+.sec{
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+.phone{
+  background-color:#fff9eb;
+  border-radius: 20px;
+  
+  
+
+
+}
+.phone-img {
+  max-width: 100%;
+   
+}
+@media (min-width: 768px) { 
+  .phone-img{
+    position: absolute;
+    width: 420px;
+    left: 20px;
+    top: -50px;
+  }
+ }
+
+@media (min-width: 992px) {
+  .phone-img {
+    position: absolute;
+     top: -100px;
+     left: 40px;     
+    width: 300px;
+  }
+}
+
+.btns{
+ 
+  background-color:#fff9eb;
+  padding: 8px;
+  color:grey;
+  font-size: larger;
+}
+.btns:hover
+{
+    background-color:#f8dea0;
+    color: grey;
+}
+.icon{
+  font-size: 20px;
+}
+.apps{
+ color: grey;
+ border: 1px solid rgb(237, 235, 235);
+ padding: 5px;
+ border-radius: 10px;
+ 
+
+}
+.apps:hover{
+  background-color: rgb(187, 182, 182);
+  color: white;
+}
+.apps-all{
+  margin-top: 30px;
+}
+.a-style{
+  font-size: medium;
+ 
+}
+.form-control2{
+ 
+  border: 1px solid grey;
+  border-radius: 5px;
+  width:130px;
+}
+@media (min-width: 992px) {
+  .form-control2 {
+        
+    width: 100px;
+  }
+}
+.sec1{
+  margin-top: 100px;
+ 
+}
+.form2-p{
+  letter-spacing: 1px;
+  color: grey;
+  padding: 10px;
+}
